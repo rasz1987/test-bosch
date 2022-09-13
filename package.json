@@ -2,6 +2,16 @@
   "name": "test-bosch",
   "version": "0.1.0",
   "private": true,
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/src/Interfaces.tsx",
+      "/src/index.tsx",
+      "/src/locales/Interfaces.tsx",
+      "/src/reportWebVitals.ts",
+      "/src/mocks/mocks.tsx"
+    ]
+  },
+
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
