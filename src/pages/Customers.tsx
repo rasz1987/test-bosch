@@ -75,7 +75,7 @@ const Customers: FC = () => {
       <>
         <FormGroup>
           <FormControlLabel
-            control={<Checkbox onChange={handleChange} />}
+            control={<Checkbox data-testid='has-contract' onChange={handleChange} />}
             label={
               <Typography variant='body2' color='text.secondary'>
                 {t('hasContract')}

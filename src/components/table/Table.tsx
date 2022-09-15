@@ -52,6 +52,7 @@ const TableComponent: FC<TableProps> = ({
               return (
                 <TableRow
                   key={row.id + i}
+                  data-testid='table-row'
                   className={clsx(isBirthday && classes.birthdayBackground)}
                 >
                   <TableCell align='center' >
