@@ -12,10 +12,13 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import SearchIcon from '@mui/icons-material/Search';
 import clsx from 'clsx';
 import CakeIcon from '@mui/icons-material/Cake';
+import Typography from '@mui/material/Typography';
 
 const TableComponent: FC<TableProps> = ({
   rows,
-  columns
+  columns,
+  deleteCallBack,
+  searchCallback
 }) => {
   const classes = useStyles();
 
@@ -30,7 +33,9 @@ const TableComponent: FC<TableProps> = ({
                   key={headerName}
                   align='center'
                 >
-                  {headerName}
+                  <Typography variant='body2' color='text.secondary'>
+                    {headerName}
+                  </Typography>
                 </TableCell>
               ))
             }
@@ -50,29 +55,33 @@ const TableComponent: FC<TableProps> = ({
                   className={clsx(isBirthday && classes.birthdayBackground)}
                 >
                   <TableCell align='center' >
-                    {row.firstName}
+                    <Typography variant='body2' color='text.secondary'>
+                      {row.firstName}
+                    </Typography>
                   </TableCell>
                   <TableCell
                     align='center'
                     className={classes.birthdayRow}
                   >
-                    <span>
+                    <Typography variant='body2' color='text.secondary'>
                       {date}
-                    </span>
-                    {
-                      isBirthday &&
-                      <CakeIcon />
-                    }
+                      {
+                        isBirthday &&
+                        <CakeIcon />
+                      }
+                    </Typography>
                   </TableCell>
                   <TableCell align='center' >
-                    {row.hasContract}
+                    <Typography variant='body2' color='text.secondary'>
+                      {row.hasContract}
+                    </Typography>
                   </TableCell>
                   <TableCell
                     align='center'
                     className={classes.actionsContent}
                   >
-                    <DeleteIcon onClick={() => row.onDelete(row.id)} />
-                    <SearchIcon onClick={() => row.onSearch(row.id)} />
+                    <DeleteIcon onClick={() => deleteCallBack(row.id)} />
+                    <SearchIcon onClick={() => searchCallback(row.id)} />
                   </TableCell>
                 </TableRow>
               )

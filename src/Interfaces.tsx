@@ -27,8 +27,6 @@ export type Rows = {
   hasContract: boolean;
   id: string;
   birthDate: string;
-  onDelete: OnClickType;
-  onSearch: OnClickType;
 };
 
 export interface Columns {
@@ -38,6 +36,8 @@ export interface Columns {
 export interface TableProps {
   columns: Columns[];
   rows: Rows[];
+  deleteCallBack: OnClickType;
+  searchCallback: OnClickType;
 };
 
 export interface CardComponentProp {
