@@ -2,14 +2,16 @@ import Locales from './Interfaces';
 
 const en: Locales = {
   translation: {
-    title: 'My title',
+    back: 'Back',
     notFound: 'Page not found',
     name: 'First name',
     birthday: 'Birthday',
     hasContract: 'Has contract',
     actions: 'Actions',
     yes: 'Yes',
-    not: 'Not'
+    not: 'Not',
+    lastname: 'Last name',
+    email: 'Email',
   }
 };
 

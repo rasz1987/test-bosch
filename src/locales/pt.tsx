@@ -2,14 +2,16 @@ import Locales from './Interfaces';
 
 const pt: Locales = {
   translation: {
-    title: 'O meu titulo',
+    back: 'Voltar',
     notFound: 'Página não encontrada',
     name: 'Nome',
     birthday: 'Aniversário',
     hasContract: 'Contratado',
     actions: 'Acções',
     yes: 'Sim',
-    not: 'Não'
+    not: 'Não',
+    lastname: 'Sobrenome',
+    email: 'Correio eletronico',
   }
 };
 

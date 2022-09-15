@@ -1,6 +1,5 @@
 export default interface Locales {
   translation: {
-    title: string;
     notFound: string;
     name: string;
     birthday: string;
@@ -8,5 +7,8 @@ export default interface Locales {
     actions: string;
     yes: string;
     not: string;
+    back: string;
+    lastname: string;
+    email: string;
   }
 };
