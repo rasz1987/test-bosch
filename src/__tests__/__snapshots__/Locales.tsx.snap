@@ -3,8 +3,16 @@
 exports[`Should return locales without crash 1`] = `
 Object {
   "translation": Object {
+    "actions": "Actions",
+    "back": "Back",
+    "birthday": "Birthday",
+    "email": "Email",
+    "hasContract": "Has contract",
+    "lastname": "Last name",
+    "name": "First name",
+    "not": "Not",
     "notFound": "Page not found",
-    "title": "My title",
+    "yes": "Yes",
   },
 }
 `;
@@ -12,8 +20,16 @@ Object {
 exports[`Should return locales without crash 2`] = `
 Object {
   "translation": Object {
+    "actions": "Acciones",
+    "back": "Regresar",
+    "birthday": "Cumpleaños",
+    "email": "Correo electrónico",
+    "hasContract": "Contratado",
+    "lastname": "Apellido",
+    "name": "Primer nombre",
+    "not": "No",
     "notFound": "Página no encontrada",
-    "title": "Mi titulo",
+    "yes": "Sí",
   },
 }
 `;
@@ -21,8 +37,16 @@ Object {
 exports[`Should return locales without crash 3`] = `
 Object {
   "translation": Object {
+    "actions": "Acções",
+    "back": "Voltar",
+    "birthday": "Aniversário",
+    "email": "Correio eletronico",
+    "hasContract": "Contratado",
+    "lastname": "Sobrenome",
+    "name": "Nome",
+    "not": "Não",
     "notFound": "Página não encontrada",
-    "title": "O meu titulo",
+    "yes": "Sim",
   },
 }
 `;
@@ -81,20 +105,44 @@ Object {
     "resources": Object {
       "en": Object {
         "translation": Object {
+          "actions": "Actions",
+          "back": "Back",
+          "birthday": "Birthday",
+          "email": "Email",
+          "hasContract": "Has contract",
+          "lastname": "Last name",
+          "name": "First name",
+          "not": "Not",
           "notFound": "Page not found",
-          "title": "My title",
+          "yes": "Yes",
         },
       },
       "es": Object {
         "translation": Object {
+          "actions": "Acciones",
+          "back": "Regresar",
+          "birthday": "Cumpleaños",
+          "email": "Correo electrónico",
+          "hasContract": "Contratado",
+          "lastname": "Apellido",
+          "name": "Primer nombre",
+          "not": "No",
           "notFound": "Página no encontrada",
-          "title": "Mi titulo",
+          "yes": "Sí",
         },
       },
       "pt": Object {
         "translation": Object {
+          "actions": "Acções",
+          "back": "Voltar",
+          "birthday": "Aniversário",
+          "email": "Correio eletronico",
+          "hasContract": "Contratado",
+          "lastname": "Sobrenome",
+          "name": "Nome",
+          "not": "Não",
           "notFound": "Página não encontrada",
-          "title": "O meu titulo",
+          "yes": "Sim",
         },
       },
     },
@@ -113,20 +161,44 @@ Object {
   "store": Object {
     "en": Object {
       "translation": Object {
+        "actions": "Actions",
+        "back": "Back",
+        "birthday": "Birthday",
+        "email": "Email",
+        "hasContract": "Has contract",
+        "lastname": "Last name",
+        "name": "First name",
+        "not": "Not",
         "notFound": "Page not found",
-        "title": "My title",
+        "yes": "Yes",
       },
     },
     "es": Object {
       "translation": Object {
+        "actions": "Acciones",
+        "back": "Regresar",
+        "birthday": "Cumpleaños",
+        "email": "Correo electrónico",
+        "hasContract": "Contratado",
+        "lastname": "Apellido",
+        "name": "Primer nombre",
+        "not": "No",
         "notFound": "Página no encontrada",
-        "title": "Mi titulo",
+        "yes": "Sí",
       },
     },
     "pt": Object {
       "translation": Object {
+        "actions": "Acções",
+        "back": "Voltar",
+        "birthday": "Aniversário",
+        "email": "Correio eletronico",
+        "hasContract": "Contratado",
+        "lastname": "Sobrenome",
+        "name": "Nome",
+        "not": "Não",
         "notFound": "Página não encontrada",
-        "title": "O meu titulo",
+        "yes": "Sim",
       },
     },
   },

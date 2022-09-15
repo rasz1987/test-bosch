@@ -67,7 +67,7 @@ const TableComponent: FC<TableProps> = ({
                       {date}
                       {
                         isBirthday &&
-                        <CakeIcon />
+                        <CakeIcon data-testid='cake-icon' />
                       }
                     </Typography>
                   </TableCell>
@@ -80,8 +80,14 @@ const TableComponent: FC<TableProps> = ({
                     align='center'
                     className={classes.actionsContent}
                   >
-                    <DeleteIcon onClick={() => deleteCallBack(row.id)} />
-                    <SearchIcon onClick={() => searchCallback(row.id)} />
+                    <DeleteIcon
+                      data-testid='delete-icon'
+                      onClick={() => deleteCallBack(row.id)}
+                    />
+                    <SearchIcon
+                      data-testid='search-icon'
+                      onClick={() => searchCallback(row.id)}
+                    />
                   </TableCell>
                 </TableRow>
               )

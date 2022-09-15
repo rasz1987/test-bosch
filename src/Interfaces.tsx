@@ -24,7 +24,7 @@ export interface CustomerContextProp {
 
 export type Rows = {
   firstName: string;
-  hasContract: boolean;
+  hasContract: string;
   id: string;
   birthDate: string;
 };
