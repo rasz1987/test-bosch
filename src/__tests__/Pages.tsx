@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Customer from '../pages/Customer';
+import Customer from '../pages/customer/Customer';
 import Customers from '../pages/Customers';
 import NotFound from '../pages/NotFound';
 

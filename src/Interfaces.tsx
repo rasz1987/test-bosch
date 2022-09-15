@@ -39,3 +39,7 @@ export interface TableProps {
   columns: Columns[];
   rows: Rows[];
 };
+
+export interface CardComponentProp {
+  data: CustomersResponse
+};

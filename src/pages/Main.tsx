@@ -17,7 +17,7 @@ import useStyles from '../App.styles';
 import apiAxios from '../hooks/useAxiosApi';
 import Grid from '@mui/material/Grid';
 import Header from '../components/header/Header';
-import Customer from '../pages/Customer';
+import Customer from './customer/Customer';
 import Customers from './Customers';
 import NotFound from '../pages/NotFound';
 
